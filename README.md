@@ -39,4 +39,12 @@ Welcome to the Weather App! This responsive app provides current weather informa
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/weather-app.git
+   git clone https://github.com/shijuvtm/real-time-weather-app.git
+2.**Add your API key**:
+   Open script.js and replace YOUR_API_KEY with your OpenWeatherMap API key:
+   ```bash
+   apiKey: "YOUR_API_KEY"
+3. **Run CMD**:
+
+
+
