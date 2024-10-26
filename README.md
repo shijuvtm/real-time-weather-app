@@ -40,3 +40,24 @@ Welcome to the Weather App! This responsive app provides current weather informa
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/yourusername/weather-app.git
+2.**Add your API key**:
+   Open script.js and replace YOUR_API_KEY with your OpenWeatherMap API key:
+    ```bash
+      apiKey: "YOUR_API_KEY"
+3.**Run cmd**:
+   Open *index.html* in your browser to start using the app.
+   
+### Project Structure
+
+- index.html - Main HTML structure.
+- style.css - Styling for the layout and components.
+- script.js - JavaScript for API handling and dynamic data display.
+  
+### Usage
+- Search for a City: Type the city name and click the search button to see current weather details.
+- Switch Temperature Units: Select Celsius, Fahrenheit, or Kelvin from the dropdown menu.
+- View Forecast: Check the 5-day forecast below the main weather details.
+
+  
+### 🔗 Links
+Live Demo <!-- Link to your live demo -->
