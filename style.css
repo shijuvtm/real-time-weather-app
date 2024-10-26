@@ -1,0 +1,179 @@
+
+
+body {
+    
+    font-family: 'Open Sans', sans-serif;
+    background: #222;
+    
+    font-size: 120%;
+  }
+
+  
+  
+  .card {
+    background: #000000d0;
+    color: white;
+    padding: 2em;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 420px;
+    margin: 1em;
+  }
+  .card2{
+ 
+    width: 100%;
+    max-width:fit-content;
+    margin: 1em;
+  }
+  
+  
+  .search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  button {
+    margin: 0.5em;
+    border-radius: 50%;
+    border: none;
+    height: 44px;
+    width: 44px;
+    outline: none;
+    background: #7c7c7c2b;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+  }
+  
+  input.search-bar {
+    border: none;
+    outline: none;
+    padding: 0.4em 1em;
+    border-radius: 24px;
+    background: #7c7c7c2b;
+    color: white;
+    font-family: inherit;
+    font-size: 120%;
+    width: calc(100% - 100px);
+  }
+  
+  button:hover {
+    background: #7c7c7c6b;
+  }
+  
+  h1.temp , h1.temp-feels-like{
+    margin: 0;
+    margin-bottom: 0.4em;
+    font-size: 20px;
+  }
+  h1.temp-feels-like{
+    font-size: 16px;
+  }
+  
+  .flex {
+    display: flex;
+    align-items: center;
+  }
+
+  .description {
+    text-transform: capitalize;
+    margin-left: 8px;
+  }
+
+  .weather.loading {
+    visibility: hidden;
+    max-height: 20px;
+    position: relative;
+  }
+  
+  .weather.loading:after {
+    visibility: visible;
+    content: "Loading...";
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 20px;
+  }
+  .dt{
+    font-size: xx-small;
+  }
+  .card h5, .card3 h5{
+    color: rgb(120, 119, 119);
+    margin: -1em 0em 1em;
+  }
+.topcard{
+  display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 70vh;
+    margin-top: -55px; 
+
+    /* background-color: red; */
+}
+.bottomcard{
+  /* background-color: blue; */
+  height: 30vh;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.card3{
+  background: #000000d0;
+  color: white;
+  padding: 2em;
+  border-radius: 30px;
+  width: 100%;
+  /* max-width:fit-content; */
+  margin: 1em;
+  display: flex;
+  flex-direction: column;
+
+}
+.boxes{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0em 1em ;
+  padding: 1%;
+  width: 25%;
+  height: auto;
+  background-color: rgba(50, 50, 50, 0.404);
+  flex-direction: column;
+
+}
+.box img{
+  width: 60px;
+  height: 60px;
+}
+.ddt{
+  font-size: 12px;
+}
+
+/* Dropdown container - needed to position the dropdown content */
+#dropdown {
+  float: left;
+  width: 60px;
+  height: 50px;
+  /* overflow: hidden; */
+  position: fixed;
+  
+}
+
+.dropkey{
+  font-size:medium;
+  /* display: contents; */
+  width: 200%;
+  height: 100%;
+  border-radius: 6px;
+  background-color: #000000d0;
+  color: white;
+  border: none;
+}
