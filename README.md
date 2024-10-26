@@ -16,7 +16,7 @@ Welcome to the Weather App! This responsive app provides current weather informa
 
 ## 📸 Screenshots
 
-![Screenshot of Weather App](https://via.placeholder.com/800x400) <!-- replace with actual screenshot -->
+![Screenshot of Weather App](https://github.com/user-attachments/assets/c4c2786f-28d6-43f4-b505-e015ffc8fc06) <!-- replace with actual screenshot -->
 
 ---
 
